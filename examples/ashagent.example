@@ -1,0 +1,6 @@
+# name type model base-url key-env [max_tokens]
+# type: openai (OpenAI, Mistral, OpenCode Zen) or anthropic (Claude)
+openai openai gpt-4o-mini https://api.openai.com/v1 OPENAI_API_KEY
+mistral openai mistral-large-latest https://api.mistral.ai/v1 MISTRAL_API_KEY
+zen openai deepseek-v4-flash-free https://opencode.ai/zen/v1 OPENCODE_API_KEY
+claude anthropic claude-3-5-sonnet-latest https://api.anthropic.com/v1 ANTHROPIC_API_KEY

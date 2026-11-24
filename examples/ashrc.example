@@ -1,0 +1,4 @@
+PS1='%K{blue}%F{white} %n@%m %F{blue}%K{green}%P%F{black} %~%g %F{green}%K{default}%P%f%(?..%F{red})%C%f '
+RPS1='%(?..%F{red}%?%f)'
+
+setopt interactive_comments
