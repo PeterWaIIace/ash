@@ -1,0 +1,10 @@
+ash
+build/
+*.o
+*.d
+.frama-c/
+*.frama-c/
+verify/out/
+*.why3session
+*.smt2
+*.proved
